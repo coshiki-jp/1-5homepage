@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  body {
+            font-family: 'Inter', sans-serif;
+            color: var(--light-color);
+            background-image: url('https://media.discordapp.net/attachments/1393352790126100533/1395743368645967913/124037757_p0_master1200.webp?ex=687b8ece&is=687a3d4e&hm=99ecc4e6732e83b2fd5a61b551900d5f98a5c9baeca1d30a7e6eab09d44585d1&=&width=630&height=354');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+            z-index: -1;
+}
